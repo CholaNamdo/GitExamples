@@ -1,0 +1,26 @@
+cd
+is
+git unit
+git status
+gid add
+git comit -m "first commit"
+git config --global user.email "you@example.com"
+
+-----------------------------------------------------------------------
+echo "# GitExamples" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/CholaNamdo/GitExamples.git
+git push -u origin main
+-----------------------------------------------------------------------
+
+git commit -m "initial commit"
+git push origin master                - если есть проблема с "git push -u origin main"
+-----------------------------------------------------------------------
+
+При выполнении команды git commit данные, которые находятся в index'е переносятся в репозиторий
+ и устанавливаются соответствующие ссылки на эти данные. В этом весь смысл данной команды.
+-----------------------------------------------------------------------
+
